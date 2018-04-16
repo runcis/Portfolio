@@ -1,0 +1,51 @@
+* {
+	margin:0;
+}
+
+html, body {
+	height:100%;
+}
+
+h1, h2, h3, h4, h5, h6 p {
+	margin-bottom: 20px;
+}
+
+nav{
+	height:50px;
+	background-color: rgba(0,0,0,.5);
+	position: fixed;
+	width:100%;
+	z-index: 99;
+	text-align:center;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 30px;
+	line-height: 50px;
+}
+
+.sect {
+	height: 100%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+.subSection {
+	height: 80%;
+	background-color: bisque;
+}
+
+.sect1{
+	background-image: url("images/wall.jpg");
+}
+
+.sect2{
+	background-image: url("images/phone.jpg");
+}
+
+.sect3{
+	background-image: url("images/grasswork.jpg");
+}
